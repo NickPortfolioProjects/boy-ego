@@ -76,6 +76,7 @@ p {
 
 /* Footer section */
 footer {
+    text-align: center;
     background-color: #3992FF;
     position: fixed;
     width: 100%;

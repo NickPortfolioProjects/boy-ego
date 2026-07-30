@@ -41,15 +41,18 @@
 
 /* Global */
 body {
-    background-color: black;
+    background-color: #2C2C35;
 }
 
-.boy-ego-logo-text {
+.logo {
+    position: fixed;
+    top: 0;
     text-align: center;
     background-color: #3992FF;
     height: 75px;
     width: 100%;
     padding: 16.7px;
+    overflow: hidden;
 }
 
 h1, h2, h3, h4, h5 {
@@ -58,18 +61,22 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
-h2:hover {
-    color: aqua;
-}
-
 p {
     color: #ffffff;
+}
+
+/* Navbar override */
+.navbar {
+    background-color: #FF7A59 !important;
+    margin-top: 75px;
+    position: fixed;
+    width: 100%;
 }
 
 
 /* Footer section */
 footer {
-    background-color: aqua;
+    background-color: #3992FF;
     position: fixed;
     width: 100%;
     bottom: 0;
